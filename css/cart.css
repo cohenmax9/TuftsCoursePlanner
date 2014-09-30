@@ -1,0 +1,47 @@
+#cart {
+	float: right;
+    z-index: 1;
+	border-radius:5px 5px 0 0;
+	background-color: #6699CC;
+	border: 1px solid #987654;
+	color: #000000;
+	padding: 10px;
+
+	-moz-box-shadow: 2px -2px 33px 0px #000000;
+	-webkit-box-shadow: 2px -2px 33px 0px #000000;
+	box-shadow: 2px -2px 33px 0px #000000;
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+}
+
+#cart_table {
+	font-family: Ubuntu;
+	font-size: 14px;
+}
+
+#cart_table #header_row {
+	background-color: #aaaaaa;
+}
+
+#cart_table tr:nth-child(even) {
+	background-color:#eeeeee;
+	border-bottom: 1px #bbbbbb solid !important;
+}
+
+#cart_table tr:not(:first-child):nth-child(odd) {
+	background-color:#cccccc;
+	border-bottom: 1px #bbbbbb solid !important;
+}
+
+#cart_table tr:not(:first-child):hover {
+	background-color: #522C1B;
+	color: white;
+}
+
+#cart_table td {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+}

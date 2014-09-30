@@ -1,0 +1,64 @@
+<!-- views/profile.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/profile.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/fonts.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/course_table.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/cart.css"/>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<!-- <script src="../js/jquery-1.11.1.js"></script> -->
+	<script type="text/javascript" src="../jquery-ui-1.11.0.custom/external/jquery/jquery.js"></script>
+	<!-- <script type="text/javascript" src="../jquery-ui-1.11.0.custom/jquery-ui.js"></script> -->
+	<script type="text/javascript" src="../jquery-ui-1.11.0.custom/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tablednd.js"></script>
+	<script type="text/javascript" src="../js/index.js"></script>
+	<script type="text/javascript" src="../js/profile.js"></script>
+</head>
+<body onload="constructCart()">
+<div id="cart"></div>
+
+<div class="container">
+
+	<div id="nav_bar" class="noprint">
+		<a href="/" class="btn btn-default">Home</a>
+		<a href="/schedule" class="btn btn-default">Schedule</a>
+		<a href="/about" class="btn btn-default">About</a>
+	</div>
+
+
+	<div class="page-header text-center">
+		<h1><span class="fa fa-anchor"></span> Profile Page</h1>
+		<a href="/logout" class="btn btn-default btn-sm">Logout</a>
+	</div>
+
+	<div class="row">
+
+		<!-- LOCAL INFORMATION -->
+			<div class="well">
+
+					<p>
+						<strong>id</strong>: <%= user._id %><br>
+						<strong>email</strong>: <%= user.email %><br>
+						<strong>password</strong>: <%= user.password %><br>
+						<strong>cart</strong>: <%= user.cart %><br>
+						<strong>classes</strong>: <%= cart.courses %>
+					</p>
+			</div>
+
+			<div class="well">
+				<p>Change your password: </p>
+
+				<span>New Password: </span><input type="text" />
+
+				<span>Confirm Password: </span><input type="text" />
+
+				<button type="button" id="reset_password" onclick="resetPassword()">Reset</button>
+			</div>
+	</div>
+</div>
+</body>
+</html>

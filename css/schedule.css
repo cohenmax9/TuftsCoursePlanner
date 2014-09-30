@@ -1,0 +1,45 @@
+@media print and (max-width:8.5in) { /* resize your window until the event is triggered */
+    
+    html { 
+    	width: 8.5in;
+    	height: 11in; 
+    }
+
+    body { 
+    	font: 9pt/1.5 Arial, sans-serif; /* Roughly 12px font */
+    } 
+
+    .noprint {
+    	display: none;
+    }
+
+	#calendar {
+	     height: 150%;
+         width: 80%;
+	}
+}
+
+body {
+    background-image: url(../images/strange_bullseyes.jpg);
+}
+
+#cal_event_onclick {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 1;
+	font-size: 12px;
+    color: #6699CC;
+    background-color: #522C1B;
+}
+
+.course_description {
+	border: 1px solid #6699CC;
+}
+
+#calendar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+

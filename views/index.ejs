@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tufts Courses</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/title_style.css" />
+	<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/course_table.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/cart.css"/>
+	<link rel="stylesheet" type="text/css" href="../jquery-ui-1.11.0.custom/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" href="../jquery-ui-1.11.0.custom/jquery-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="../jquery-ui-1.11.0.custom/jquery-ui.structure.css" />
+	<link rel="stylesheet" type="text/css" href="../jquery-ui-1.11.0.custom/jquery-ui.structure.min.css" />
+	<link rel="stylesheet" type="text/css" href="../jquery-ui-1.11.0.custom/jquery-ui.theme.css" />
+	<link rel="stylesheet" type="text/css" href="../jquery-ui-1.11.0.custom/jquery-ui.theme.min.css" />
+	<link rel="stylesheet" type="text/css" href="../css/fonts.css"/>
+
+	<script src="../js/modernizr.custom.29473.js"></script>
+	<script src="../js/modernizr.custom.41769.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<!-- <script src="../js/jquery-1.11.1.js"></script> -->
+	<script type="text/javascript" src="../jquery-ui-1.11.0.custom/external/jquery/jquery.js"></script>
+	<!-- <script type="text/javascript" src="../jquery-ui-1.11.0.custom/jquery-ui.js"></script> -->
+	<script type="text/javascript" src="../jquery-ui-1.11.0.custom/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tablednd.js"></script>
+	<script src="../js/index.js"></script>
+	<script src="../js/fixedheader.js"></script>
+
+	<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+	<script type="text/javascript" src="js/jquery.lettering.js"></script>
+
+	<script type="text/javascript" src="../notify/notify.min.js"></script>
+	<script type="text/javascript" src="../notify/notify.js"></script>
+
+	<script type="text/javascript" src="js/hover.js"></script>
+
+</head>
+<body onload="setup()">
+
+<h2 class="cs-text">
+    <span id="t1" class="closed">t</span>
+    <span id="u1" class="closed">u</span>
+    <span id="f1" class="closed">f</span>
+    <span id="t2" class="closed">t</span>
+    <span id="s1" class="closed">s</span>
+    <span id="c1" class="closed">c</span>
+    <span id="o1" class="closed">o</span>
+    <span id="u2" class="closed">u</span>
+    <span id="r1" class="closed">r</span>
+    <span id="s2" class="closed">s</span>
+    <span id="e1" class="closed">e</span>
+    <span id="s3" class="closed">s</span>
+    <span id="logo" class="closed"></span>
+</h2>
+
+<div id="cart"></div>
+
+<div class="container">
+
+<div id="search_panel">
+
+	<div id="nav_bar" class="noprint">
+		<!-- <a href="/" class="btn btn-default">Home</a>
+		<a href="/schedule" class="btn btn-default">Schedule</a>
+		<a href="/login" class="btn btn-default">Login</a>
+		<a href="/about" class="btn btn-default">About</a> -->
+	</div>
+
+	<div id="explain">
+		<p>Search for Classes</p>
+	</div>
+
+	<span id="semester_select" class="select">
+		<span>Semester: </span>
+		<select id="semesters">
+			<option>Fall 2014</option>
+			<option>Spring 2014</option>
+		</select>
+	</span>
+
+	<span id="departments_select" class="select">
+		<span>Department: </span>
+		<select id="departments">
+			<option></option>
+			<option>COMP - Computer Science</option>
+			<option>MATH - Mathematics</option>
+			<option>PHY - Physics</option>
+			<option>ME - Mechanical Engineering</option>
+		</select>
+	</span>
+
+	<div id="professor_input" class="keyboard_input">
+	  <span>Professor:</span>
+		<input id="professor" name="professor" type="text" />
+	</div>
+
+	<div id="course_name_input" class="keyboard_input">
+	  <span>Course Name:</span>
+		<input id="course_name" name="course_name" type="text" />
+	</div>
+
+</div>
+
+
+	<div class="noprint" id="buttons">
+		<input id="search" type="submit" value="search" onclick="search()" />
+		<button type="button" id="reset" onclick="reset()">reset</button>
+	</div>
+
+	<div id="add_to_schedule_button" class="noprint" onclick="addToSchedule()"></div>
+
+	<div id="table_and_attr">
+		<div id="print_button"></div>
+
+		<div id="course_conflicts_button"></div>
+
+		<span id="num_courses"></span>
+
+		<div id="course_table" class="print"></div>
+	</div>
+
+	<div id="add_to_schedule_button2" class="noprint" onclick="addToSchedule()"></div>
+</div>
+</body>
+</html>

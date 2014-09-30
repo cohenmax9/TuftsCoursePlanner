@@ -1,0 +1,218 @@
+{
+	"Fall 2014": 
+	{
+		"COMP": {
+			"dept_name": "Computer Science",
+			"dept_abbr": "COMP",
+			"courses": 
+			[
+				{
+					"course_num": "0007",
+					"course_name": "Bioinformatics",
+					"section": "01-LEC(80363)",
+					"instructor": "Donna Slonim",
+					"room": "Halligan Hall, Room 111A",
+					"days": "We",
+					"start_time": "13, 30",
+					"end_time": "14, 45",
+					"status": "open",
+					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+				},
+				{
+					"course_num": "0011",
+					"course_name": "Introduction to Computer Science",
+					"section": "01-LEC(80330)",
+					"instructor": "Mark A. Sheldon",
+					"room": "Robinson Hall, Room 253",
+					"days": "TuTh",
+					"start_time": "15, 00",
+					"end_time": "16, 15",
+					"status": "open",
+					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+
+				},
+				{
+					"course_num": "0011",
+					"course_name": "Introduction to Computer Science",
+					"section": "01-LEC(80331)",
+					"instructor": "Mark A. Sheldon",
+					"room": "Robinson Hall, Room 253",
+					"days": "TuTh",
+					"start_time": "16, 30",
+					"end_time": "17, 45",
+					"status": "open",
+					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+				},
+				{
+					"course_num": "0015",
+					"course_name": "Data Structures",
+					"section": "01-LEC(80328)",
+					"instructor": "Christopher Gregg",
+					"room": "Robinson Hall, Room 253",
+					"days": "MoWe",
+					"start_time": "13, 30",
+					"end_time": "14, 45",
+					"status": "open",
+					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+				},
+				{
+					"course_num": "0015",
+					"course_name": "Data Structures",
+					"section": "01-LEC(80329)",
+					"instructor": "Christopher Gregg",
+					"room": "Anderson Hall, Room 313",
+					"days": "MoWe",
+					"start_time": "16, 30",
+					"end_time": "17, 45",
+					"status": "open",
+					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+				}
+			]
+		},
+		"MATH": {
+			"dept_name": "Mathematics",
+			"dept_abbr": "MATH",
+			"courses":
+			[
+				{
+					"course_num": "0004",
+					"course_name": "Fundamentals Of Mathematics",
+					"section": "01-LEC(81564)",
+					"instructor": "Zachary Faubion",
+					"room": "Bromfield-Pearson, Room 006",
+					"days": "MoWeFr",
+					"start_time": "13, 30",
+					"end_time": "14, 20",
+					"status": "open",
+					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+				},
+				{
+					"course_num": "0019",
+					"course_name": "The Mathematics Of Social Choice",
+					"section": "01-LEC(81618)",
+					"instructor": "Linda B. Garant",
+					"room": "Bromfield-Pearson, Room 007",
+					"days": "TuTh",
+					"start_time": "10, 30",
+					"end_time": "11, 45",
+					"status": "waitlist",
+					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+				},
+				{
+					"course_num": "0019",
+					"course_name": "The Mathematics Of Social Choice",
+					"section": "03-LEC(81619)",
+					"instructor": "Staff",
+					"room": "Bromfield-Pearson, Room 101",
+					"days": "TuTh",
+					"start_time": "15, 00",
+					"end_time": "16, 15",
+					"status": "open",
+					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+				},
+				{
+					"course_num": "0019",
+					"course_name": "The Mathematics Of Social Choice",
+					"section": "04-LEC(82496)",
+					"instructor": "Staff",
+					"room": "Bromfield-Pearson, Room 101",
+					"days": "TuTh",
+					"start_time": "15, 00",
+					"end_time": "16, 15",
+					"status": "open",
+					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+				}
+			]
+		},
+		"PHY": {
+			"dept_name": "Physics",
+			"dept_abbr": "PHY",
+			"courses": 
+			[
+				{
+					"course_num": "0001",
+					"course_name": "Introduction to Physics I",
+					"section": "01-LEC(83942)",
+					"instructor": "Nathan Lowhorn",
+					"room": "Robinson Hall, Room 253",
+					"days": "MoWe",
+					"start_time": "10, 30",
+					"end_time": "11, 45",
+					"status": "open",
+					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+				},
+				{
+					"course_num": "0006",
+					"course_name": "Physics For Humanists",
+					"section": "01-LEC(83290)",
+					"instructor": "Gary R. Goldstein",
+					"room": "Anderson, Nelson Auditorium",
+					"days": "MoWe",
+					"start_time": "15, 00",
+					"end_time": "16, 15",
+					"status": "open",
+					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+				},
+				{
+					"course_num": "0011",
+					"course_name": "General Physics I",
+					"section": "01-LEC(81676)",
+					"instructor": "Roger Tobin",
+					"room": "Robinson Hall, Room 253",
+					"days": "Mo",
+					"start_time": "09, 30",
+					"end_time": "10, 20",
+					"status": "open",
+					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+				},
+				{
+					"course_num": "0012",
+					"course_name": "General Physics II",
+					"section": "01-LEC(81727)",
+					"instructor": "Timothy Atherton",
+					"room": "Robinson Hall, Room 253",
+					"days": "TuTh",
+					"start_time": "12, 00",
+					"end_time": "13, 15",
+					"status": "open",
+					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+				},
+				{
+					"course_num": "0013",
+					"course_name": "Introduction to Modern Physics",
+					"section": "01-LEC(81734)",
+					"instructor": "Hugh M. Gallagher",
+					"room": "Sophia Gordon Multi-Purp Hall",
+					"days": "Mo",
+					"start_time": "13, 30",
+					"end_time": "14, 20",
+					"status": "open",
+					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+				}
+			]
+		}
+	},
+	"Spring 2014": 
+	{
+		"MATH": {
+			"dept_name": "Mathematics",
+			"dept_abbr": "MATH",
+			"courses":
+			[
+				{
+					"course_num": "0004",
+					"course_name": "Fundamentals Of Mathematics",
+					"section": "01-LEC(81564)",
+					"instructor": "Zachary Faubion",
+					"room": "Bromfield-Pearson, Room 006",
+					"days": "MoWeFr",
+					"start_time": "13, 30",
+					"end_time": "14, 20",
+					"status": "open"
+					,
+					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+				}
+			]
+		}
+	}
+}

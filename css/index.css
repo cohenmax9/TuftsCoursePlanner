@@ -1,0 +1,50 @@
+body {
+	padding: 25px;
+	background-image: url(../images/strange_bullseyes.jpg);
+}
+
+.keyboard_input {
+	padding-top: 5px;
+}
+
+.select {
+	padding-right: 10px;
+}
+
+#explain {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#search_panel {
+    position: relative;
+    padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#add_to_schedule_button, #add_to_schedule_button2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media print and (max-width:8.5in) { /* resize your window until the event is triggered */
+    
+    html { 
+    	width: 8.5in;
+    	height: 11in; 
+    }
+
+    body { 
+    	font: 9pt/1.5 Arial, sans-serif; /* Roughly 12px font */
+    } 
+
+    .noprint {
+    	display: none;
+    }
+
+    #course_name_input {
+    	display: inline;
+    }
+}
+
+

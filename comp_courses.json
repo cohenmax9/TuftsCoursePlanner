@@ -1,0 +1,54 @@
+{
+	"cs": {
+		"dept_name": "Computer Science",
+		"dept_abbr": "COMP",
+		"courses": 
+		[
+			{
+				"course_num": "0007",
+				"course_name": "Bioinformatics",
+				"section": "01-LEC(80363)",
+				"instructor": "Donna Slonim",
+				"room": "Halligan Hall, Room 111A",
+				"days_and_times": "We 6:00PM - 9:00PM",
+				"status": "open"
+			},
+			{
+				"course_num": "0011",
+				"course_name": "Introduction to Computer Science",
+				"section": "01-LEC(80330)",
+				"instructor": "Mark A. Sheldon",
+				"room": "Robinson Hall, Room 253",
+				"days_and_times": "TuTh 3:00PM - 4:15PM",
+				"status": "open"
+			},
+			{
+				"course_num": "0011",
+				"course_name": "Introduction to Computer Science",
+				"section": "01-LEC(80331)",
+				"instructor": "Mark A. Sheldon",
+				"room": "Robinson Hall, Room 253",
+				"days_and_times": "TuTh 4:30PM - 5:45PM",
+				"status": "open"
+			},
+			{
+				"course_num": "0015",
+				"course_name": "Data Structures",
+				"section": "01-LEC(80328)",
+				"instructor": "Christopher Gregg",
+				"room": "Robinson Hall, Room 253",
+				"days_and_times": "MoWe 1:30PM - 2:45PM",
+				"status": "open"
+			},
+			{
+				"course_num": "0015",
+				"course_name": "Data Structures",
+				"section": "01-LEC(80329)",
+				"instructor": "Christopher Gregg",
+				"room": "Anderson Hall, Room 313",
+				"days_and_times": "MoWe 4:30PM - 5:45PM",
+				"status": "open"
+			}
+		]
+	}
+}

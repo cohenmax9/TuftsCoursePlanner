@@ -1,0 +1,50 @@
+
+{
+	"math": {
+	"dept_name": "Mathematics",
+	"dept_abbr": "MATH",
+	"courses":
+	[
+		{
+			"course_num": "0004",
+			"course_name": "Fundamentals Of Mathematics",
+			"section": "01-LEC(81564)",
+			"instructor": "Zachary Faubion",
+			"room": "Bromfield-Pearson, Room 006",
+			"days_and_times": "MoWeFr 1:30PM-2:20PM",
+			"meeting_dates": "09/02/2014 - 12/08/2014",
+			"status": "open"
+			},
+			{
+			"course_num": "0019",
+			"course_name": "The Mathematics Of Social Choice",
+			"section": "01-LEC(81618)",
+			"instructor": "Linda B. Garant",
+			"room": "Bromfield-Pearson, Room 007",
+			"days_and_times": "TuTh 10:30PM-11:45PM",
+			"meeting_dates": "09/02/2014 - 12/08/2014",
+			"status": "waitlist"
+			},
+			{
+			"course_num": "0019",
+			"course_name": "The Mathematics Of Social Choice",
+			"section": "03-LEC(81619)",
+			"instructor": "Staff",
+			"room": "Bromfield-Pearson, Room 101",
+			"days_and_times": "TuTh 3:00PM-4:15PM",
+			"meeting_dates": "09/02/2014 - 12/08/2014",
+			"status": "open"
+			},
+			{
+			"course_num": "0019",
+			"course_name": "The Mathematics Of Social Choice",
+			"section": "04-LEC(82496)",
+			"instructor": "Staff",
+			"room": "Bromfield-Pearson, Room 101",
+			"days_and_times": "TuTh 3:00PM-4:15PM",
+			"meeting_dates": "09/02/2014 - 12/08/2014",
+			"status": "open"
+			}
+		]
+	}
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Schedule</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="../css/schedule.bootstrap.min.css">
+	<link rel='stylesheet' type='text/css' href="../css/schedule.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/cart.css"/>
+	<link rel='stylesheet' type='text/css' href='../jquery-week-calendar-master/jquery.weekcalendar.css' />
+	<link rel="stylesheet" type="text/css" href="../css/fonts.css"/>
+
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'></script>
+    <script type='text/javascript' src='../jquery-week-calendar-master/libs/jquery-ui-1.8rc3.custom.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tablednd.js"></script>
+	<!-- <script src="../js/jquery-1.11.1.js"></script> -->
+	<!-- <script type="text/javascript" src="../jquery-ui-1.11.0.custom/external/jquery/jquery.js"></script> -->
+	<!-- <script type="text/javascript" src="../jquery-ui-1.11.0.custom/jquery-ui.js"></script> -->
+	<script type='text/javascript' src='../jquery-ui-1.11.0.custom/jquery-ui.min.js'></script>
+	<script type='text/javascript' src='../jquery-week-calendar-master/jquery.weekcalendar.js'></script>
+	<script type='text/javascript' src='js/index.js'></script>
+    <script type='text/javascript' src='js/schedule.js'></script>
+</head>
+<body onload="constructCart()">
+<div id="cart" class="tw-bs"></div>
+
+<div id="container" class="tw-bs">
+	<div class="noprint">
+		<a href="/" class="btn btn-default">Home</a>
+		<a href="/login" class="btn btn-default">Login</a>
+		<a href="/profile" class="btn btn-default">Profile</a>
+		<a href="/about" class="btn btn-default">About</a>
+	</div>
+
+	<a id="print" class="noprint" onClick="window.print();return false"><img src="../images/print_button.png"></a>
+
+    <h1 class="noprint">Schedule</h1>
+
+    <div id="cal_event_onclick"></div>
+</div>
+<div id="calendar"></div>
+</body>
+</html>
