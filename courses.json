@@ -1,4 +1,81 @@
 {
+	"Spring 2015": 
+	{
+		"COMP": {
+			"dept_name": "Computer Science",
+			"dept_abbr": "COMP",
+			"courses": 
+			[
+				{
+					"course_num": "0112",
+					"course_name": "Networks",
+					"section": "01-LEC(21137)",
+					"instructor": "Fahad Dugar",
+					"room": "Halligan Hall, Room 111A",
+					"days": "TuTh",
+					"start_time": "10, 30",
+					"end_time": "11, 45",
+					"status": "open",
+					"description": "Computer Networks and Protocols. Design and implementation of computer communication networks, protocols, and applications, with an emphasis on the Internet protocol suite. Network architectures and programming interfaces. Data link, transport, and routing protocols. Congestion sources and remedies. Addressing and naming in local area and wide area networks. Network security and network management."
+				},
+				{
+					"course_num": "0115",
+					"course_name": "Database Systems",
+					"section": "01-LEC(24067)",
+					"instructor": "Alva Couch",
+					"room": "Halligan Hall, Room 111B",
+					"days": "MoWe",
+					"start_time": "18, 00",
+					"end_time": "19, 15",
+					"status": "open",
+					"description": "Fundamental concepts of database systems, including conceptual design, relational and object-oriented data models, query languages (SQL, QBE), and implementation issues (indexing, transaction processing, concurrent control). The concepts and algorithms covered encompass many of those used in commercial and experimental database systems. Other topics include distributed databases and distributed query processing."
+				},
+				{
+					"course_num": "0120",
+					"course_name": "Web Engineering",
+					"section": "01-LEC(24068)",
+					"instructor": "Ming Chow",
+					"room": "Robinson Hall, Room 253",
+					"days": "TuTh",
+					"start_time": "13, 30",
+					"end_time": "14, 45",
+					"status": "open",
+					"description": "Essentials of designing, building, and analyzing enterprise websites embodying business processes. Correctness, validation, and security. Data models and scaffolding. Templating and view abstraction. Model-View-Controller decomposition and frameworks. Caching, pipelining, and performance tuning. Asynchronous client-server interactions.  Web services and service decomposition. Web semantics."
+				},
+				{
+					"course_num": "0170",
+					"course_name": "Computational Theory",
+					"section": "01-LEC(21141)",
+					"instructor": "Benjamin Hescott",
+					"room": "Pearson Hall, Room 104",
+					"days": "MoWe",
+					"start_time": "16, 30",
+					"end_time": "17, 45",
+					"status": "open",
+					"description": "Models of computation: Turing machines, pushdown automata, and finite automata. Grammars and formal languages, including context-free languages and regular sets. Important problems, including the halting problem and language equivalence theorems."
+				}
+			]
+		},
+		"HIST": {
+			"dept_name": "History",
+			"dept_abbr": "HIST",
+			"courses": 
+			[
+				{
+					"course_num": "0002",
+					"course_name": "Globalization",
+					"section": "01-LEC(21696)",
+					"instructor": "Peter Winn",
+					"room": "Paige Hall, Terrace Room",
+					"days": "MoWe",
+					"start_time": "15, 00",
+					"end_time": "16, 15",
+					"status": "open",
+					"description": "Five centuries of globalization, including the age of reconnaissance, the Columbian Exchange, the industrial revolution, and the globalization of economies, technologies, war, politics, and popular culture in the 20th century. Includes resistance and alternatives to globalization."
+				}
+			]	
+		}
+	},
 	"Fall 2014": 
 	{
 		"COMP": {
@@ -16,7 +93,7 @@
 					"start_time": "13, 30",
 					"end_time": "14, 45",
 					"status": "open",
-					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+					"description": "This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts."
 				},
 				{
 					"course_num": "0011",
@@ -28,7 +105,7 @@
 					"start_time": "15, 00",
 					"end_time": "16, 15",
 					"status": "open",
-					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+					"description": "This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts."
 
 				},
 				{
@@ -41,7 +118,7 @@
 					"start_time": "16, 30",
 					"end_time": "17, 45",
 					"status": "open",
-					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+					"description": "This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts."
 				},
 				{
 					"course_num": "0015",
@@ -53,7 +130,7 @@
 					"start_time": "13, 30",
 					"end_time": "14, 45",
 					"status": "open",
-					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+					"description": "This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts."
 				},
 				{
 					"course_num": "0015",
@@ -65,7 +142,7 @@
 					"start_time": "16, 30",
 					"end_time": "17, 45",
 					"status": "open",
-					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+					"description": "This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts."
 				}
 			]
 		},
@@ -84,7 +161,7 @@
 					"start_time": "13, 30",
 					"end_time": "14, 20",
 					"status": "open",
-					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+					"description": "This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts."
 				},
 				{
 					"course_num": "0019",
@@ -96,7 +173,7 @@
 					"start_time": "10, 30",
 					"end_time": "11, 45",
 					"status": "waitlist",
-					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+					"description": "This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts."
 				},
 				{
 					"course_num": "0019",
@@ -108,7 +185,7 @@
 					"start_time": "15, 00",
 					"end_time": "16, 15",
 					"status": "open",
-					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+					"description": "This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts."
 				},
 				{
 					"course_num": "0019",
@@ -120,7 +197,7 @@
 					"start_time": "15, 00",
 					"end_time": "16, 15",
 					"status": "open",
-					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+					"description": "This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts."
 				}
 			]
 		},
@@ -139,7 +216,7 @@
 					"start_time": "10, 30",
 					"end_time": "11, 45",
 					"status": "open",
-					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+					"description": "This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts."
 				},
 				{
 					"course_num": "0006",
@@ -151,7 +228,7 @@
 					"start_time": "15, 00",
 					"end_time": "16, 15",
 					"status": "open",
-					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+					"description": "This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts."
 				},
 				{
 					"course_num": "0011",
@@ -163,7 +240,7 @@
 					"start_time": "09, 30",
 					"end_time": "10, 20",
 					"status": "open",
-					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+					"description": "This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts."
 				},
 				{
 					"course_num": "0012",
@@ -175,7 +252,7 @@
 					"start_time": "12, 00",
 					"end_time": "13, 15",
 					"status": "open",
-					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+					"description": "This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts."
 				},
 				{
 					"course_num": "0013",
@@ -187,7 +264,7 @@
 					"start_time": "13, 30",
 					"end_time": "14, 20",
 					"status": "open",
-					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+					"description": "This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts."
 				}
 			]
 		}
@@ -210,7 +287,7 @@
 					"end_time": "14, 20",
 					"status": "open"
 					,
-					"description": "This course is about Sparta. Back in ancient times, Beowolf was on TV on a show called \"Dog Bites.\" This show was a complete failure, leading to the ultimate demise of the Neanderthals in Shrek's swamp due to the bubonic plague."
+					"description": "This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts. This is a course at Tufts."
 				}
 			]
 		}

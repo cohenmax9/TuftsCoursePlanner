@@ -33,6 +33,11 @@
 	<script type="text/javascript" src="../notify/notify.min.js"></script>
 	<script type="text/javascript" src="../notify/notify.js"></script>
 
+	<script type"text/javascript" src="js/typeahead.js/typeahead.bundle.min.js"></script>
+	<script type"text/javascript" src="js/typeahead.js/typeahead.jquery.min.js"></script>
+
+	<script type"text/javascript" src="js/autocomplete.js"></script>
+
 	<script type="text/javascript" src="js/hover.js"></script>
 
 </head>
@@ -74,6 +79,7 @@
 	<span id="semester_select" class="select">
 		<span>Semester: </span>
 		<select id="semesters">
+			<option>Spring 2015</option>
 			<option>Fall 2014</option>
 			<option>Spring 2014</option>
 		</select>
@@ -87,17 +93,18 @@
 			<option>MATH - Mathematics</option>
 			<option>PHY - Physics</option>
 			<option>ME - Mechanical Engineering</option>
+			<option>HIST - History</option>
 		</select>
 	</span>
 
 	<div id="professor_input" class="keyboard_input">
 	  <span>Professor:</span>
-		<input id="professor" name="professor" type="text" />
+		<input id="professor" class="typeahead" name="professor" type="text" placeholder="Professor"/>
 	</div>
 
 	<div id="course_name_input" class="keyboard_input">
 	  <span>Course Name:</span>
-		<input id="course_name" name="course_name" type="text" />
+		<input id="course_name" class="typeahead" name="course_name" type="text" placeholder="Course Name"/>
 	</div>
 
 </div>

@@ -269,7 +269,7 @@ function insertCourseInfoIntoTable(table, dept_key, course_info)
 		row.setAttribute("class", "even");
 	}
 
-	//row.setAttribute("onclick", "showCourseRowInfo(this)");
+	row.setAttribute("onclick", "showCourseRowInfo(this)");
 
 	cell = row.insertCell(0);
 	cell.appendChild(checkbox_button);
